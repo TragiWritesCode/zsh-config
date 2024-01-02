@@ -3,9 +3,12 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 alias ea="exa -laUmhg"
 alias tf="terraform"
 alias kc="kubecolor"
+alias kcns="kc change-ns"
+alias kce="kc exec -it"
 alias kcgp="kc get pod"
 alias kcgpa="kcgp -A"
 
