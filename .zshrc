@@ -5,9 +5,9 @@
 export ZSH="$HOME/.oh-my-zsh"
 alias ea="exa -laUmhg"
 alias tf="terraform"
-alias kc="kubectl"
-alias kcgp="kubectl get pod"
-alias kcgpa="kubectl get pod -A"
+alias kc="kubecolor"
+alias kcgp="kc get pod"
+alias kcgpa="kcgp -A"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
